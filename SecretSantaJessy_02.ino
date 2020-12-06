@@ -50,7 +50,7 @@ char subkey[] = "sub-c-d19dd86c-3448-11eb-a9dc-46d577f2b3de";
 // channel and ID data
 const char* myID = "Jessy"; // place your name here, this will be put into your "sender" value for an outgoing messsage
 char publishChannel[] = "jessyData"; // channel to publish YOUR data
-char readChannel[] = "jessyData"; // channel to read THEIR data
+char readChannel[] = "kristjanData"; // channel to read THEIR data
 
 // JSON variables
 StaticJsonDocument<200> outMessage; // The JSON from the outgoing message
